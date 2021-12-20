@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1322px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 139px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item-link {
+    margin-right: 53px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    color: #021206;
+    opacity: 0.5;
+}
+
+.login-link {
+    display: flex;
+    align-items: center;
+}
+
+.head-login {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #021206;
+    opacity: 0.7;
+    margin-right: 23px;
+}
+
+.head-link {
+    background: #f44545;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #fff;
+}
+
+.hero {
+    margin-bottom: 136px;
+}
+
+.hero-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-heading {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 81px;
+    width: 487px;
+    color: #021206;
+}
+
+.color-word {
+    color: #20d499;
+}
+.dot{
+    background-color:#4edaac;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+}
+.second-dots {
+    width: 5px;
+    height: 5px;
+    margin-bottom: 1.1px;
+}
+
+.hero-text {
+    font-size: 21px;
+    line-height: 160%;
+    color: #021206;
+    width: 509px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.hero-message {
+    background: #fff;
+    border-radius: 6px;
+    width: 472px;
+    height: 65px;
+    border: none;
+    font-size: 18px;
+    line-height: 27px;
+    color: #021206;
+    opacity: 0.9;
+    padding: 19px 0px 19px 24px;
+    box-shadow: 3px 3px 27px 5px rgba(34, 60, 80, 0.2);
+}
+.hero-input {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 105px;
+    margin-bottom: 36px;
+}
+.hero-btn {
+    position: absolute;
+    margin-right: 6px;
+}
+.hero-email {
+    background: #f44545;
+    border-radius: 6px;
+    padding: 11px 33px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 300px;
+}
+
+.hero-link {
+    list-style: none;
+    display: flex;
+}
+
+.googleplay {
+    margin-right: 30px;
+}
+
+.partners {
+    height: 163px;
+    margin-bottom: 110px;
+}
+
+.partners-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 55px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.card-item {
+    width: 282px;
+    height: 290px;
+    background: #fff;
+    box-shadow: 0px 15px 65px #414d4426;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 35px 172px 180px 35px;
+}
+
+.icons {
+    background: linear-gradient(141.58deg, #ff9a9a 3.63%, #f14c4c 91.45%);
+    box-shadow: 1px 5px 30px #d7151580;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    width: 75px;
+    height: 75px;
+}
+
+.user-img {
+    background: linear-gradient(154.24deg, #85fed6 4.45%, #4edaac 83.73%)
+}
+
+.shield-img {
+    background: linear-gradient(163.65deg, #fcd876 4.69%, #fabc13 88.66%);
+}
+
+.coding-img {
+    background: linear-gradient(143.75deg, #fe9af4 0%, #ec4edc 88.72%);
+}
+
+.card-heading {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+    color: #021206;
+    width: 143px;
+    opacity: 0.8;
+    margin-bottom: 9px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 160%;
+    color: #021206;
+    opacity: 0.7;
+    width: 223px;
+}
+
+.solution-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 67px;
+    width: 548px;
+    color: #021206;
+    margin-bottom: 20px;
+}
+
+.solution-text {
+    font-size: 18px;
+    line-height: 160%;
+    width: 480px;
+    color: #021206;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.solution-link-box {
+    display: flex;
+    align-items: center;
+}
+
+.solution-link {
+    text-decoration: none;
+    background: #282323;
+    border-radius: 6px;
+    padding: 15px 40px;
+    color: #fff;
+    margin-right: 25px;
+}
+
+.solution-ask {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #ff4d4d;
+    width: 42px;
+    text-decoration: none;
+}
