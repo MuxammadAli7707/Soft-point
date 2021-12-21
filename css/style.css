@@ -151,6 +151,7 @@ body {
 .partners {
     height: 163px;
     margin-bottom: 110px;
+    background-color: rgba(142, 230, 201,0.1);
 }
 
 .partners-list {
@@ -159,7 +160,6 @@ body {
     justify-content: space-around;
     list-style: none;
     padding: 53px;
-    background-color: rgba(142, 230, 201, 0.1);;
 }
 
 .cards {
