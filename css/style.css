@@ -127,6 +127,7 @@ body {
 .hero-btn {
     position: absolute;
     margin-right: 6px;
+    border: none;
 }
 .hero-email {
     background: #f44545;
@@ -155,9 +156,10 @@ body {
 .partners-list {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style: none;
-    padding-top: 55px;
+    padding: 53px;
+    background-color: rgba(142, 230, 201, 0.1);;
 }
 
 .cards {
